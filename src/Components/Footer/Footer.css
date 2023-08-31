@@ -1,0 +1,1375 @@
+@font-face {
+  font-family: "Betatron";
+  src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
+}
+.rectangle-div3 {
+  position: relative;
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  width: 100%;
+}
+.have-a {
+  color: #fff;
+}
+.have-a-cryptic-project-with-yo {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.well-make-it-bright {
+  margin: 0;
+}
+.have-a-cryptic-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.have-a {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+.feel-free-to {
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  font-family: Orbitron;
+  color: #fff;
+  text-align: center;
+}
+.logo_image img {
+  width: 50%;
+  height: auto;
+  margin-top: 0rem;
+}
+.logo {
+  color: #625cd4;
+  font-size: 40px;
+  margin-left: 8%;
+  font-family: oribitron;
+  font-weight: bolder;
+}
+.site {
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: Orbitron;
+  color: #fff;
+}
+.ms {
+  margin-left: 250px;
+}
+.mt {
+  margin-top: 150px;
+}
+.px {
+  padding-left: 100px;
+}
+.location_box {
+  position: relative;
+  width: 20%;
+  right: 23%;
+  bottom: 28rem;
+}
+.location {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.detail {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+}
+.contact-us_box {
+  position: relative;
+  width: 20%;
+  left: -3%;
+  padding-bottom: 3rem;
+}
+.contact-us {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.detail_contact {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+}
+.ps {
+  padding-left: 200px;
+}
+.rectangle-div-footer {
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  height: 20%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.celozisall-rights-reserved {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+  text-align: center;
+  left: 50px;
+}
+nav a {
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-flex;
+}
+nav ul li a:hover {
+  background-color: #1c1b33;
+  border: solid;
+}
+.imagecontainer {
+  width: 100%;
+  height: auto;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-overlay p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: px;
+}
+.rectangle-div-footer {
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  height: 20%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.celozisall-rights-reserved {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+  text-align: center;
+  left: 50px;
+}
+nav a {
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-flex;
+}
+/*phone*/
+@media screen and (max-width: 360px) and (orientation: portrait) {
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .celozisall-rights-reserved {
+    left: auto;
+  }
+  .dots1 {
+    width: 80%;
+    left: 70px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  .location_box {
+    position: relative;
+    width: 55%;
+    left: 22%;
+    bottom: 24rem;
+  }
+  .location {
+    position: relative;
+    bottom: 6rem;
+    left: 2.5rem;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 50% !important;
+    left: -45%;
+    bottom: -2rem;
+  }
+  .contact-us_box img {
+    width: 170%;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 6rem;
+    left: 2.5rem;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-top: -220px;
+    margin-left: 30%;
+    font-size: 25px;
+  }
+  .logo_image {
+    margin-left: 30%;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 393px) and (orientation: portrait) {
+  .dots1 {
+    width: 80%;
+  }
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .celozisall-rights-reserved {
+    font-size: 16px;
+    left: 30px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  .location_box {
+    position: relative;
+    width: 55%;
+    left: 22%;
+    bottom: 24rem;
+  }
+  .location {
+    position: relative;
+    bottom: 6rem;
+    left: 2.5rem;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 50% !important;
+    left: -42%;
+    bottom: -2rem;
+  }
+  .contact-us_box img {
+    width: 158%;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 6rem;
+    left: 2.5rem;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-top: -220px;
+    margin-left: 30%;
+    font-size: 25px;
+  }
+  .logo_image {
+    margin-left: 30%;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 350px) and (orientation: portrait) {
+  .celozisall-rights-reserved {
+    left: 5%;
+    font-size: 15px;
+  }
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .dots1 {
+    width: 80%;
+    left: 70px;
+  }
+  .location_box {
+    position: relative;
+    width: 55%;
+    left: 22%;
+    bottom: 24rem;
+  }
+  .location {
+    position: relative;
+    bottom: 5.5rem;
+    left: 2rem;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 50% !important;
+    left: -50%;
+    bottom: -2rem;
+  }
+  .contact-us_box img {
+    width: 200%;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 5rem;
+    left: 2.5rem;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 5rem;
+    left: 2rem;
+    color: #fff;
+    font-size: 8px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-top: -220px;
+    margin-left: 30%;
+    font-size: 25px;
+  }
+  .logo_image {
+    margin-left: 30%;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 450px) and (orientation: portrait) {
+  .celozisall-rights-reserved {
+    left: 10%;
+    font-size: 15px;
+  }
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 0px;
+    font-size: 15px;
+  }
+  .dots1 {
+    width: 70%;
+    left: 118px;
+  }
+  .location_box {
+    position: relative;
+    width: 55%;
+    left: 22%;
+    bottom: 24rem;
+  }
+  .location {
+    position: relative;
+    bottom: 6rem;
+    left: 2.5rem;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 50% !important;
+    left: -40%;
+    bottom: -2rem;
+  }
+  .contact-us_box img {
+    width: 148%;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 6rem;
+    left: 2.5rem;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-top: -220px;
+    margin-left: 30%;
+    font-size: 25px;
+  }
+  .logo_image {
+    margin-left: 30%;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+/*phone landscape*/
+@media only screen and (min-width: 768px) and (max-width: 815px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    left: 25% !important;
+    font-size: 20px;
+  }
+  .have-a-cryptic-container {
+    font-size: 45px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .nav {
+    margin-left: 12%;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 25px;
+    padding: 0px;
+    font-size: 15px;
+  }
+  .dots1 {
+    width: 40% !important;
+    left: 60% !important;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 5%;
+    bottom: 32rem;
+  }
+  .location {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 8%;
+    padding-bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (min-width: 831px) and (max-width: 930px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    left: 20% !important;
+    font-size: 25px;
+  }
+  .have-a-cryptic-container {
+    font-size: 45px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .nav {
+    margin-left: 2%;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 40px;
+    font-size: 15px;
+  }
+  .dots1 {
+    width: 47%;
+    left: 415px !important;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 5%;
+    bottom: 35rem;
+  }
+  .location {
+    position: relative;
+    bottom: 8.5rem;
+    left: 4.5rem;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 8.5rem;
+    left: 4.5rem;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 8%;
+    bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 8.5rem;
+    left: 4.5rem;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 8.5rem;
+    left: 4.5rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 0%;
+  }
+}
+
+/*iphone Landscape*/
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .have-a-cryptic-container {
+    font-size: 45px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  .celozisall-rights-reserved {
+    left: 16% !important;
+    font-size: 20px !important;
+  }
+  .dots1 {
+    width: 50%;
+  }
+  .nav {
+    margin-left: 3%;
+  }
+  nav ul li a {
+    font-size: 10px;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 5%;
+    bottom: 28rem;
+  }
+  .location {
+    position: relative;
+    bottom: 6.5rem;
+    left: 3rem;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 6.5rem;
+    left: 3rem;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 5%;
+    bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 5.5rem;
+    left: 2.5rem;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 5.5rem;
+    left: 2.5rem;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-width: 731px) and (max-width: 811px) and (orientation: landscape) {
+  .have-a-cryptic-container {
+    font-size: 45px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  .celozisall-rights-reserved {
+    left: 25% !important;
+    font-size: 20px !important;
+  }
+  .dots1 {
+    width: 50%;
+  }
+  .nav {
+    margin-left: 12%;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 6.5%;
+    bottom: 28rem;
+  }
+  .location {
+    position: relative;
+    bottom: 8rem;
+    left: 4rem;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 8rem;
+    left: 4rem;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 5%;
+    bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 8rem;
+    left: 4.5rem;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 8rem;
+    left: 4.5rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 0%;
+  }
+} /*
+@media only screen and (min-width: 833px) and (max-width: 926px) and (orientation: landscape) {
+  .have-a-cryptic-container {
+    font-size: 45px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  .celozisall-rights-reserved {
+    left: 25% !important;
+    font-size: 20px !important;
+  }
+  .dots1 {
+    width: 50%;
+    left: 2%!;
+  }
+  .nav {
+    margin-left: 10%;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+}*/
+@media only screen and (min-width: 700px) and (max-width: 730px) and (orientation: landscape) {
+  .have-a-cryptic-container {
+    font-size: 45px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  .celozisall-rights-reserved {
+    left: 25% !important;
+    font-size: 20px !important;
+  }
+  .dots1 {
+    width: 50%;
+    left: 2%!;
+  }
+  .nav {
+    margin-left: 7%;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 6.5%;
+    bottom: 28rem;
+  }
+  .location {
+    position: relative;
+    bottom: 8rem;
+    left: 4rem;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 8rem;
+    left: 4rem;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 5%;
+    bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 8rem;
+    left: 4.5rem;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 8rem;
+    left: 4.5rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 0%;
+  }
+}
+/*tab*/
+@media screen and (min-width: 768px) and (max-width: 799px) and (orientation: portrait) {
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 5%;
+    bottom: 32rem;
+  }
+  .location {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 8%;
+    padding-bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 8.5rem;
+    left: 3.2rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 1280px) and (orientation: portrait) {
+  .celozisall-rights-reserved {
+    left: 20%;
+    font-size: 25px;
+  }
+  .have-a-cryptic-container {
+    font-size: 55px;
+  }
+  .feel-free-to {
+    font-size: 25px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .dots1 {
+    width: 60%;
+    left: 300px;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 5%;
+    bottom: 32rem;
+  }
+  .location {
+    position: relative;
+    bottom: 9rem;
+    left: 2.5em;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 9rem;
+    left: 4rem;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 8%;
+    padding-bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 9rem;
+    left: 2.5em;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 9rem;
+    left: 4.5rem;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 2%;
+  }
+}
+
+/*landscapetab*/
+@media only screen and (min-width: 1000px) and (max-width: 1024px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    text-align: center;
+    left: 25%;
+  }
+  .dots1 {
+    width: 60%;
+    left: 390px !important;
+  }
+  nav ul li a {
+    padding-left: 140%;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 5%;
+    bottom: 32rem;
+  }
+  .location {
+    position: relative;
+    bottom: 11rem;
+    left: 3em;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 11rem;
+    left: 5rem;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 8%;
+    padding-bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 11rem;
+    left: 3.5em;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 11rem;
+    left: 6rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 2%;
+  }
+}
+@media only screen and (min-width: 1181px) and (max-width: 1280px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    text-align: center;
+    left: 33%;
+  }
+  .dots1 {
+    width: 60%;
+    left: 450px;
+  }
+  nav ul li a {
+    margin-left: -250%;
+    margin-top: 100%;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 6%;
+    bottom: 40rem;
+  }
+  .location {
+    position: relative;
+    bottom: 13rem;
+    left: 4em;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 12rem;
+    left: 7rem;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 6%;
+    padding-bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 11rem;
+    left: 4.8em;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 11rem;
+    left: 8rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 8%;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1280px) and (orientation: landscape) {
+  nav ul li a {
+    margin-left: -290% !important;
+    margin-top: 100% !important;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1180px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    position: relative;
+    font-size: 25px !important;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    text-align: center;
+    left: 40%;
+  }
+  .dots1 {
+    width: 60%;
+    left: 450px;
+  }
+  nav ul li a {
+    padding-left: 100px;
+  }
+  .location_box {
+    position: relative;
+    width: 40%;
+    right: 6%;
+    bottom: 32rem;
+  }
+  .location {
+    position: relative;
+    bottom: 13rem;
+    left: 4em;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail {
+    position: relative;
+    bottom: 12rem;
+    left: 7rem;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .contact-us_box {
+    position: relative;
+    width: 40%;
+    left: 6%;
+    padding-bottom: 3rem;
+  }
+  .contact-us {
+    position: relative;
+    bottom: 11rem;
+    left: 4.8em;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .detail_contact {
+    position: relative;
+    bottom: 11rem;
+    left: 8rem;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    text-align: center;
+  }
+  .logo {
+    margin-left: 8%;
+  }
+}
