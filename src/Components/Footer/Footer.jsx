@@ -3,6 +3,7 @@ import Groupdot from "../../assets/Groupdot.png";
 import Union from "../../assets/Union.png";
 import ZESDROLOGO from "../../assets/ZESDROLOGO.svg";
 import { useTypingEffect } from "../Typing/Typing";
+import navbar from "../../assets/navbar.png";
 import React from "react";
 
 function Footer() {
@@ -78,21 +79,54 @@ function Footer() {
           <hr className="border border-white" />
           <div className="navbar">
             <div className="celozisall-rights-reserved">
-              @CELOZIS.All Rights Reserved
+              @ZESDRO.All Rights Reserved
             </div>
             <nav className="nav">
               <ul>
                 <li>
-                  <a href="#">Instagram</a>
+                  <div className="nav-main">
+                    {" "}
+                    <a href="#" class="nav-link" style={{ color: "#fff" }}>
+                      Instagram
+                    </a>
+                    <img src={navbar} alt="" className="nav-img" />
+                  </div>
                 </li>
                 <li>
-                  <a href="#">Facebook</a>
+                  <div className="nav-main">
+                    <a
+                      href="#"
+                      className="nav-link1"
+                      style={{ color: "#fff", textDecoration: "none" }}
+                    >
+                      Facebook
+                    </a>
+                    <img src={navbar} alt="" className="nav-img" />
+                  </div>
                 </li>
                 <li>
-                  <a href="#">LinkedIn</a>
+                  <div className="nav-main">
+                    <a
+                      href="#"
+                      className="nav-link2"
+                      style={{ color: "#fff", textDecoration: "none" }}
+                    >
+                      LinkedIn
+                    </a>
+                    <img src={navbar} alt="" className="nav-img" />
+                  </div>
                 </li>
                 <li>
-                  <a href="#">twitter</a>
+                  <div className="nav-main">
+                    <a
+                      href="#"
+                      className="nav-link3"
+                      style={{ color: "#fff", textDecoration: "none" }}
+                    >
+                      Twitter
+                    </a>
+                    <img src={navbar} alt="" className="nav-img" />
+                  </div>
                 </li>
               </ul>
             </nav>

@@ -57,6 +57,7 @@
   width: 100%;
   height: auto;
 }
+/*Responsive*/
 @media screen and (max-width: 500px) {
   .rectangle_logo {
     height: 80vh;

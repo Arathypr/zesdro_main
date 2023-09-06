@@ -1,14 +1,11 @@
-
-import React, { useCallback, useState ,useEffect} from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import { PieChart, Pie, Sector } from "recharts";
-
- 
-
+import Brand from "../Brand/Brand";
 
 const data = [
   { name: "CUSTOMER", value: 300 },
   { name: "TECHNOLOGY", value: 300 },
-  { name: "BUSINESS", value: 300 }
+  { name: "BUSINESS", value: 300 },
 ];
 
 const renderActiveShape = (props) => {
@@ -22,7 +19,7 @@ const renderActiveShape = (props) => {
     startAngle,
     endAngle,
     fill,
-    payload
+    payload,
   } = props;
   const sin = Math.sin(-RADIAN * midAngle);
   const cos = Math.cos(-RADIAN * midAngle);
@@ -30,13 +27,13 @@ const renderActiveShape = (props) => {
   const sy = cy + (outerRadius + 10) * sin;
   const mx = cx + (outerRadius + 30) * cos;
   const my = cy + (outerRadius + 30) * sin;
-  const ex = mx + (cos >= 0 ? 1 : -1) * 50;
+  const ex = mx + (cos >= 0 ? 1 : -1) * 100;
   const ey = my;
   const textAnchor = cos >= 0 ? "start" : "end";
 
   return (
     <g>
-      <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill}>
+      <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill} fontSize={26}>
         {payload.name}
       </text>
       <Sector
@@ -68,7 +65,7 @@ const renderActiveShape = (props) => {
 };
 
 export default function App() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null);
   const onPieEnter = useCallback(
     (_, index) => {
       setActiveIndex(index);
@@ -77,25 +74,38 @@ export default function App() {
   );
 
   return (
-    <div className="piechart" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <div style={{ textAlign: 'center' }}>
-        <PieChart className="piechart" width={335} height={400}>
-          <Pie className="piechart"
-            activeIndex={activeIndex}
-            activeShape={renderActiveShape}
-            data={data}
-            cx={200}
-            cy={200}
-            innerRadius={60}
-            outerRadius={100}
-            fill="#8884d8"
-            dataKey="value"
-            onMouseEnter={onPieEnter}
-          />
-        </PieChart>
+    <>
+      {/* <Brand /> */}{" "}
+      <div
+        className="piechart"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <div style={{ textAlign: "center" }}>
+          <PieChart className="piechart" width={500} height={500}>
+            <Pie
+              className="piechart"
+              activeIndex={activeIndex}
+              activeShape={renderActiveShape}
+              data={data}
+              cx={250}
+              cy={250}
+              innerRadius={120}
+              outerRadius={170}
+              fill="#8884d8"
+              dataKey="value"
+              onMouseEnter={onPieEnter}
+            />
+          </PieChart>
+        </div>
       </div>
-    </div>
+      <div>
+        <Brand activeIndex={activeIndex} />
+      </div>
+    </>
   );
-
 }
-

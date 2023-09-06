@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Element, Link } from "react-scroll";
 import "./Circle.css";
 import { motion } from "framer-motion";
 
@@ -91,7 +92,7 @@ function Circle() {
   }, []);
 
   return (
-    <div className={`rectangle-circle ${animateCircles ? "animate" : ""}`}>
+    <div className="rectangle-circle ">
       <div className="no-fuzz-no-container">
         <p className="no-fuzz-no">NO FUZZ, NO BULLSHIT</p>
         <p className="services-done-on">SERVICES DONE ON TRUST</p>
@@ -99,24 +100,32 @@ function Circle() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <div className="big-circle">
-              <motion.div
-                className="circle1 position-absolute"
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data1">
-                  {circleData.data1.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
+            <div className={`big-circle ${animateCircles ? "animate" : ""}`}>
+              {/* <Element name="circleAnimation"> */}
+                <motion.div
+                  className="circle1 position-absolute"
+                  initial={{ y: -480 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.1 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                >
+                  <p className="data1">
+                    {circleData.data1.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+              {/* </Element> */}
               <motion.div
                 className="circle2 position-absolute"
+                initial={{ y: -480 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.2 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}
@@ -130,7 +139,12 @@ function Circle() {
                   ))}
                 </p>
               </motion.div>
-              <div className="circle3 position-absolute">
+              <motion.div
+                className="circle3 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.3 }}
+              >
                 <p className="data3">
                   {circleData.data3.split("\n").map((line, index) => (
                     <React.Fragment key={index}>
@@ -139,9 +153,12 @@ function Circle() {
                     </React.Fragment>
                   ))}
                 </p>
-              </div>
+              </motion.div>
               <motion.div
                 className="circle4 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.4 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}
@@ -155,7 +172,12 @@ function Circle() {
                   ))}
                 </p>
               </motion.div>
-              <motion.div className="circle5 position-absolute">
+              <motion.div
+                className="circle5 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.45 }}
+              >
                 <p className="data5">
                   {circleData.data5.split("\n").map((line, index) => (
                     <React.Fragment key={index}>
@@ -167,6 +189,9 @@ function Circle() {
               </motion.div>
               <motion.div
                 className="circle6 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.5 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}
@@ -182,6 +207,9 @@ function Circle() {
               </motion.div>
               <motion.div
                 className="circle7 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.55 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}
@@ -197,6 +225,9 @@ function Circle() {
               </motion.div>
               <motion.div
                 className="circle8 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.6 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}
@@ -212,6 +243,9 @@ function Circle() {
               </motion.div>
               <motion.div
                 className="circle9 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.65 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}
@@ -227,6 +261,9 @@ function Circle() {
               </motion.div>
               <motion.div
                 className="circle10 position-absolute"
+                initial={{ y: -350 }}
+                animate={{ y: 0 }}
+                transition={{ duration: 1, delay: 0.65 }}
                 drag
                 dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                 dragElastic={1}

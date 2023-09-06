@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "Betatron";
+  src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
+}
+.rectangle-div3 {
+  position: relative;
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  width: 100%;
+}
+.have-a {
+  color: #fff;
+}
+.have-a-cryptic-project-with-yo {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.well-make-it-bright {
+  margin: 0;
+}
+.have-a-cryptic-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.have-a {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+.feel-free-to {
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  font-family: Orbitron;
+  color: #fff;
+  text-align: center;
+}
+.logo_image img {
+  width: 50%;
+  height: auto;
+  margin-top: 0rem;
+}
+.logo {
+  color: #625cd4;
+  font-size: 40px;
+  margin-left: 8%;
+  font-family: oribitron;
+  font-weight: bolder;
+}
+.site {
+  position: relative;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: Orbitron;
+  color: #fff;
+}
+.ms {
+  margin-left: 250px;
+}
+.mt {
+  margin-top: 150px;
+}
+.px {
+  padding-left: 100px;
+}
+.location_box {
+  position: relative;
+  width: 20%;
+  right: 23%;
+  bottom: 28rem;
+}
+.location {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.detail {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+}
+.contact-us_box {
+  position: relative;
+  width: 20%;
+  left: -3%;
+  padding-bottom: 3rem;
+}
+.contact-us {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.detail_contact {
+  position: relative;
+  bottom: 8.5rem;
+  left: 3.2rem;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  text-align: center;
+}
+.ps {
+  padding-left: 200px;
+}
+.rectangle-div-footer {
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  height: 20%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.celozisall-rights-reserved {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+  text-align: center;
+  left: 50px;
+}
+nav a {
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-flex;
+}
+
+.imagecontainer {
+  width: 100%;
+  height: auto;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-overlay p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: px;
+}
+.rectangle-div-footer {
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  height: 20%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.celozisall-rights-reserved {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+  text-align: center;
+  left: 50px;
+  margin-top: -2%;
+}
+nav a {
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-flex;
+}
+
+.nav-main {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-img {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nav-main:hover .nav-img {
+  opacity: 1;
+}
+
+.nav-link,
+.nav-link1,
+.nav-link2,
+.nav-link3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  z-index: 2;
+}
+.nav-link1,
+.nav-link2,
+.nav-link3 {
+  margin-left: -2%;
+}
+/*Responsive*/
+@media screen and (min-width: 1260px) {
+ 
+
+}

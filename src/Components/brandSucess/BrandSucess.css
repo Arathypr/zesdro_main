@@ -1,0 +1,35 @@
+.rectangle-pie {
+  position: relative;
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  width: 100%;
+  height: 150vh;
+}
+
+.powering-your-brands-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: betatron;
+  text-align: center;
+  color: white;
+}
+.powering-your-brands {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.with-our-core {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+
+.this-is-the {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.02rem;
+  font-family: orbitron;
+  text-align: center;
+  line-height: 32px;
+  white-space: pre-wrap;
+}

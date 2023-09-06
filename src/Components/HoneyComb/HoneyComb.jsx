@@ -29,3 +29,4 @@ function HoneyComb() {
   );
 }
 export default HoneyComb;
+  

@@ -2,62 +2,30 @@
   font-family: "Betatron";
   src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
 }
-.rectangle-div {
-  position: relative;
-  background: linear-gradient(to right, #2e335a, #1c1b33);
-  width: 100%;
-  height: 150vh;
-}
+
 .pie2 {
   display: none;
 }
-.powering-your-brands-container {
-  position: relative;
-  font-size: 65px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  font-family: betatron;
-  text-align: center;
-  color: white;
-}
-.powering-your-brands {
-  margin-block-start: 0;
-  margin-block-end: 8px;
-}
-.with-our-core {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  padding-bottom: 1.5rem;
-}
 
-.this-is-the {
-  color: #fff;
-  font-size: 25px;
-  letter-spacing: 0.02rem;
-  font-family: orbitron;
-  text-align: center;
-  line-height: 32px;
-  white-space: pre-wrap;
-}
 .vector-box {
   position: relative;
   width: 100%;
   height: 180px;
-  left: 900px;
-  bottom: 575px;
+  left: 328%;
+  bottom: 39rem;
 }
 .vector-box1 {
   position: relative;
   width: 100%;
   height: 180px;
-  left: 900px;
-  bottom: 340px;
+  left: 310%;
+  bottom: 16.5rem;
 }
 .vector-box2 {
   position: relative;
   width: 100%;
   height: 180px;
-  left: 300px;
+  left: 65%;
   bottom: 430px;
 }
 .experiences {
@@ -69,8 +37,8 @@
   letter-spacing: 0.02em;
   line-height: 30px;
   color: #fff;
-  left: 920px;
-  bottom: 620px;
+  left: 335%;
+  bottom: 370%;
   text-align: left;
   display: inline-block;
   width: 280px;
@@ -82,8 +50,8 @@
   letter-spacing: 0.02em;
   line-height: 30px;
   color: #fff;
-  left: 920px;
-  bottom: 380px;
+  left: 318%;
+  bottom: 170%;
   text-align: left;
   display: inline-block;
   width: 284px;
@@ -95,13 +63,31 @@
   letter-spacing: 0.02em;
   line-height: 30px;
   color: #fff;
-  left: 310px;
+  left: 70%;
   bottom: 440px;
   text-align: left;
   display: inline-block;
   width: 284px;
   font-family: Orbitron;
 }
+.cus-vector-box,
+.bus-vector-box,
+.tech-vector-box {
+  opacity: 0.1;
+}
+.cus-vector-box:hover,
+.bus-vector-box:hover,
+.tech-vector-box:hover {
+  opacity: 1;
+}
+.highlighted {
+  opacity: 1; /* Make the box fully visible when highlighted */
+}
+
+.normal {
+  opacity: 0.1; /* Reduce opacity for normal boxes */
+}
+
 /*phone portarit*/
 @media screen and (width: 320px) and (max-width: 350px) and (orientation: portrait) {
   .rectangle-div {

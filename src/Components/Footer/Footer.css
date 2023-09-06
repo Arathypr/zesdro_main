@@ -162,10 +162,7 @@ nav ul li a {
 nav ul li {
   display: inline-flex;
 }
-nav ul li a:hover {
-  background-color: #1c1b33;
-  border: solid;
-}
+
 .imagecontainer {
   width: 100%;
   height: auto;
@@ -209,6 +206,7 @@ nav ul li a:hover {
   color: #fff;
   text-align: center;
   left: 50px;
+  margin-top: -1.5%;
 }
 nav a {
   letter-spacing: 0.03em;
@@ -226,6 +224,42 @@ nav ul li a {
 nav ul li {
   display: inline-flex;
 }
+
+.nav-main {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-img {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nav-main:hover .nav-img {
+  opacity: 1;
+}
+
+.nav-link,
+.nav-link1,
+.nav-link2,
+.nav-link3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  z-index: 2;
+}
+.nav-link1,
+.nav-link2,
+.nav-link3 {
+  margin-left: -2%;
+}
+/* Add similar styles for other nav-link classes */
+
 /*phone*/
 @media screen and (max-width: 360px) and (orientation: portrait) {
   .have-a-cryptic-container {
@@ -897,29 +931,7 @@ nav ul li {
   .logo {
     margin-left: 0%;
   }
-} /*
-@media only screen and (min-width: 833px) and (max-width: 926px) and (orientation: landscape) {
-  .have-a-cryptic-container {
-    font-size: 45px;
-  }
-  .feel-free-to {
-    font-size: 13px;
-  }
-  .celozisall-rights-reserved {
-    left: 25% !important;
-    font-size: 20px !important;
-  }
-  .dots1 {
-    width: 50%;
-    left: 2%!;
-  }
-  .nav {
-    margin-left: 10%;
-  }
-  nav ul li a {
-    font-size: 15px;
-  }
-}*/
+}
 @media only screen and (min-width: 700px) and (max-width: 730px) and (orientation: landscape) {
   .have-a-cryptic-container {
     font-size: 45px;

@@ -9,12 +9,17 @@ import HoneyComb from "./Components/HoneyComb/HoneyComb";
 import Whyus from "./Components/Whyus/Whyus";
 import Circle from "./Components/Circle/Circle";
 
+// import { PieChart } from "../../";
+import PieChart from "./Components/PieChart/PieChart";
+import { BrandSucess } from "./Components/brandSucess/BrandSucess";
+
 function App() {
   return (
     <>
       <HoneyComb />
       <Logo />
-      <Brand />
+      <Circle />
+      <BrandSucess />
       <Whyus />
       <Tier />
       <Circle />
