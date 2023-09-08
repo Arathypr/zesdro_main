@@ -52,6 +52,7 @@
   margin-left: 8%;
   font-family: oribitron;
   font-weight: bolder;
+  font-family: orbitron;
 }
 .site {
   position: relative;
@@ -259,7 +260,139 @@ nav ul li {
   margin-left: -2%;
 }
 /*Responsive*/
-@media screen and (min-width: 1260px) {
- 
-
+@media screen and (max-width: 504px) {
+  .have-a-cryptic-container {
+    font-size: 40px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .logo_image img {
+    width: 40%;
+    height: auto;
+    margin-top: -5rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: -3rem;
+  }
+  .location_box {
+    top: 37%;
+    width: 35%;
+    right: 5.7%;
+  }
+  .location {
+    font-size: 1rem;
+    bottom: 5rem;
+    left: 2.2rem;
+    padding-bottom: 15%;
+  }
+  .detail {
+    font-size: 0.5rem;
+    bottom: 6rem;
+    left: 2.3rem;
+  }
+  .contact-us_box {
+    width: 42%;
+    margin-top: -15%;
+    margin-left: 25%;
+  }
+  .contact-us {
+    font-size: 1rem;
+    bottom: 5rem;
+    left: 2rem;
+    padding-bottom: 6%;
+  }
+  .detail_contact {
+    font-size: 0.6rem;
+    bottom: 5rem;
+    left: 1.8rem;
+  }
+  .celozisall-rights-reserved {
+    font-size: 1rem;
+  }
+  .nav-link,
+  .nav-link1,
+  .nav-link2,
+  .nav-link3 {
+    right: 50%;
+  }
+  .nav-img {
+    margin-left: 25%;
+  }
+  .dots1 {
+    width: 50%;
+    left: 52%;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 700px) {
+  .have-a-cryptic-container {
+    font-size: 40px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .logo_image img {
+    width: 40%;
+    height: auto;
+    margin-top: -5rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: -3rem;
+  }
+  .location_box {
+    top: 37%;
+    width: 35%;
+    right: 5.7%;
+  }
+  .location {
+    font-size: 1.2rem;
+    bottom: 6rem;
+    left: 2.2rem;
+    padding-bottom: 15%;
+  }
+  .detail {
+    font-size: 0.5rem;
+    bottom: 6rem;
+    left: 2.3rem;
+  }
+  .contact-us_box {
+    width: 36%;
+    margin-top: -15%;
+    margin-left: 33%;
+  }
+  .contact-us {
+    font-size: 1.2rem;
+    bottom: 6rem;
+    left: 3.5rem;
+    padding-bottom: 6%;
+  }
+  .detail_contact {
+    font-size: 0.8rem;
+    bottom: 6rem;
+    left: 3.2rem;
+  }
+  .celozisall-rights-reserved {
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+    left: 21%;
+  }
+  .nav-link,
+  .nav-link1,
+  .nav-link2 {
+    right: 100%;
+  }
+  .nav-link3 {
+    right: 150%;
+  }
+  .nav-img {
+    margin-left: 24%;
+  }
+  .dots1 {
+    width: 50%;
+    left: 50%;
+  }
 }

@@ -102,11 +102,18 @@ function Circle() {
           <div className="col-md-6">
             <div className={`big-circle ${animateCircles ? "animate" : ""}`}>
               {/* <Element name="circleAnimation"> */}
+              <div className="circle-container">
                 <motion.div
-                  className="circle1 position-absolute"
+                  className="circle1 position-absolute small-circle "
                   initial={{ y: -480 }}
                   animate={{ y: 0 }}
                   transition={{ duration: 1, delay: 0.1 }}
+                  whileHover={{
+                    y: -50,
+                    // background: "linear-gradient(to right, #2e335a, #1c1b33)",
+                    transition: { duration: 0.1 },
+                    // zIndex: 1,
+                  }}
                   drag
                   dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
                   dragElastic={1}
@@ -120,163 +127,170 @@ function Circle() {
                     ))}
                   </p>
                 </motion.div>
-              {/* </Element> */}
-              <motion.div
-                className="circle2 position-absolute"
-                initial={{ y: -480 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.2 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data2">
-                  {circleData.data2.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle3 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.3 }}
-              >
-                <p className="data3">
-                  {circleData.data3.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle4 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.4 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data4">
-                  {circleData.data4.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle5 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.45 }}
-              >
-                <p className="data5">
-                  {circleData.data5.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle6 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data6">
-                  {circleData.data6.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle7 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.55 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data7">
-                  {circleData.data7.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle8 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.6 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data8">
-                  {circleData.data8.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle9 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.65 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data9">
-                  {circleData.data9.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
-              <motion.div
-                className="circle10 position-absolute"
-                initial={{ y: -350 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1, delay: 0.65 }}
-                drag
-                dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-                dragElastic={1}
-              >
-                <p className="data10">
-                  {circleData.data10.split("\n").map((line, index) => (
-                    <React.Fragment key={index}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </p>
-              </motion.div>
+                {/* </Element> */}
+                <motion.div
+                  className="circle2 position-absolute"
+                  initial={{ y: -480 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.2 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data2">
+                    {circleData.data2.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle3 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.3 }}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data3">
+                    {circleData.data3.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle4 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.4 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data4">
+                    {circleData.data4.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle5 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.45 }}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data5">
+                    {circleData.data5.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle6 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.5 }}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data6">
+                    {circleData.data6.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle7 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.55 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data7">
+                    {circleData.data7.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle8 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.6 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data8">
+                    {circleData.data8.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle9 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.65 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data9">
+                    {circleData.data9.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+                <motion.div
+                  className="circle10 position-absolute"
+                  initial={{ y: -350 }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 1, delay: 0.65 }}
+                  drag
+                  dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+                  dragElastic={1}
+                  whileHover={{ y: -50, transition: { duration: 0.1 } }}
+                >
+                  <p className="data10">
+                    {circleData.data10.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </p>
+                </motion.div>
+              </div>
             </div>
           </div>
           <div className="col-md-6">

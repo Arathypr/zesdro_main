@@ -191,54 +191,7 @@
 }
 /*animation*/
 
-/* ... your other styles ... */
-
-/* Define the keyframes for the animation */
-@keyframes fallDown {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* Apply the animation to circles when the .animate class is added */
-/*.circle1,
-.circle2,
-.circle3,
-.circle4,
-.circle5,
-.circle6,
-.circle7,
-.circle8,
-.circle9,
-.circle10 {
-  animation: fallDown 0.5s ease-in-out forwards;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-}*/
-/* Add hover effect */
-
-/*.circle3:hover,
-.circle4:hover,
-.circle5:hover,
-.circle6:hover,
-.circle7:hover,
-.circle8:hover,
-.circle9:hover,
-.circle10:hover {
-  transform: translateY(15px); 
-}
-
-.circle1:hover,
-.circle2:hover,
-.circle9:hover,
-.circle10:hover {
-  transform: translatex(5px); 
-}*/
+/* Add hover animation for small circles */
 
 /*phone*/
 @media screen and (min-width: 320px) and (max-width: 350px) and (orientation: portrait) {

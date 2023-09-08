@@ -16,15 +16,15 @@ import { BrandSucess } from "./Components/brandSucess/BrandSucess";
 function App() {
   return (
     <>
-      <HoneyComb />
+      {/* <HoneyComb /> */}
       <Logo />
-      <Circle />
+      {/* <Circle />
       <BrandSucess />
       <Whyus />
       <Tier />
       <Circle />
       <Slider />
-      <HumanHand />
+      <HumanHand /> */}
       <Footer />
     </>
   );

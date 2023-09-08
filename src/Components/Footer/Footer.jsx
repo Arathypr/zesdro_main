@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./Foot.css";
 import Groupdot from "../../assets/Groupdot.png";
 import Union from "../../assets/Union.png";
 import ZESDROLOGO from "../../assets/ZESDROLOGO.svg";
