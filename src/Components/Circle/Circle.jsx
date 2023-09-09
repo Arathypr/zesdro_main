@@ -110,9 +110,9 @@ function Circle() {
                   transition={{ duration: 1, delay: 0.1 }}
                   whileHover={{
                     y: -50,
-                    // background: "linear-gradient(to right, #2e335a, #1c1b33)",
+                    background: "linear-gradient(to right, #2e335a, #1c1b33)",
                     transition: { duration: 0.1 },
-                    // zIndex: 1,
+                    zIndex: 1,
                   }}
                   drag
                   dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}

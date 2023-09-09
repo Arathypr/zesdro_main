@@ -36,7 +36,7 @@ function Footer() {
         </p>
       </div>
       <div className="feel-free-to">{animatedText}</div>
-      <div className="d-flex flex-row mb-3 imagecontainer mt justify-content-evenly">
+      {/* <div className="d-flex flex-row mb-3 imagecontainer mt justify-content-evenly">
         <div className=" logo_image">
           <img src={ZESDROLOGO} alt="" />
         </div>
@@ -57,8 +57,8 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="d-flex flex-row mb-3 imagecontainer mt justify-content-evenly">
+      </div> */}
+      {/* <div className="d-flex flex-row mb-3 imagecontainer mt justify-content-evenly">
         <div className="logo">zesdro.com</div>
         <div className="contact-us_box podsition-absolute ">
           <div>
@@ -70,6 +70,39 @@ function Footer() {
                 <br />
                 9895335221
               </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div class="d-flex flex-row justify-content-around mb-3">
+        <div class="p-2 bd-highlight">
+          <img src={ZESDROLOGO} alt="" className="logo_img" />
+        </div>
+        <div class="p-2 bd-highlight">
+          <img src={Union} alt="" className="location_img" />
+          <div className="location_div position-absolute">
+            <h2 className="location ">Location</h2>
+            <div className="detail">
+              4TH Floor,
+              <br />
+              Alfa Horizon Tower 3, <br />
+              Vallarpadam,Kochi,
+              <br />
+              Kerala,682504.
+            </div>
+          </div>
+        </div>
+      </div>{" "}
+      <div class="d-flex flex-row justify-content-around mb-3">
+        <div class="p-2 bd-highlight logo">Zesdro.com</div>
+        <div class="p-2 bd-highlight">
+          <img src={Union} alt="" className="contact_img" />
+          <div className="location_div position-absolute">
+            <h2 className="contact-us">Contact Us</h2>
+            <div className="detail_contact">
+              hello@zesdro.com
+              <br />
+              9895335221
             </div>
           </div>
         </div>

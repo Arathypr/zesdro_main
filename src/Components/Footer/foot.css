@@ -40,16 +40,22 @@
   font-family: Orbitron;
   color: #fff;
   text-align: center;
+  margin-bottom: 18%;
 }
-.logo_image img {
+/* .logo_image img {
   width: 50%;
   height: auto;
   margin-top: 0rem;
+} */
+.logo_img {
+  width: 50%;
+  margin-left: 20%;
 }
 .logo {
   color: #625cd4;
   font-size: 40px;
   margin-left: 8%;
+
   font-family: oribitron;
   font-weight: bolder;
   font-family: orbitron;
@@ -71,16 +77,21 @@
 .px {
   padding-left: 100px;
 }
-.location_box {
+/* .location_box {
   position: relative;
   width: 20%;
   right: 23%;
   bottom: 28rem;
+} */
+.location_img {
+  width: 80%;
+  margin-left: -23%;
+  margin-top: -8%;
 }
 .location {
   position: relative;
-  bottom: 8.5rem;
-  left: 3.2rem;
+  bottom: 10rem;
+  left: -1.5rem;
   font-size: 25px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
@@ -90,25 +101,28 @@
 }
 .detail {
   position: relative;
-  bottom: 8.5rem;
-  left: 3.2rem;
+  bottom: 9rem;
+  left: -1rem;
   color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
   text-align: center;
 }
-.contact-us_box {
+/* .contact-us_box {
   position: relative;
   width: 20%;
   left: -3%;
   padding-bottom: 3rem;
+} */
+.contact_img {
+  width: 80%;
 }
 .contact-us {
   position: relative;
   bottom: 8.5rem;
   left: 3.2rem;
-  font-size: 28px;
+  font-size: 25px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
   text-align: center;
@@ -127,10 +141,6 @@
 }
 .ps {
   padding-left: 200px;
-}
-.rectangle-div-footer {
-  background: linear-gradient(to right, #2e335a, #1c1b33);
-  height: 20%;
 }
 
 .navbar {
@@ -164,16 +174,16 @@ nav ul li {
   display: inline-flex;
 }
 
-.imagecontainer {
+/* .imagecontainer {
   width: 100%;
   height: auto;
 }
 .img {
   width: 100%;
   height: auto;
-}
+} */
 
-.image-overlay {
+/* .image-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -188,7 +198,7 @@ nav ul li {
   font-size: 20px;
   text-align: center;
   padding: px;
-}
+} */
 .rectangle-div-footer {
   background: linear-gradient(to right, #2e335a, #1c1b33);
   height: 20%;
@@ -267,16 +277,7 @@ nav ul li {
   .feel-free-to {
     font-size: 15px;
   }
-  .logo_image img {
-    width: 40%;
-    height: auto;
-    margin-top: -5rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-top: -3rem;
-  }
+
   .location_box {
     top: 37%;
     width: 35%;
