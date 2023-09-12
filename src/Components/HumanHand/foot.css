@@ -6,6 +6,7 @@
   position: relative;
   background: linear-gradient(to right, #2e335a, #1c1b33);
   width: 100%;
+  height: 120vh;
 }
 .have-a {
   color: #fff;
@@ -42,57 +43,17 @@
   text-align: center;
   margin-bottom: 18%;
 }
-/* .logo_image img {
-  width: 50%;
-  height: auto;
-  margin-top: 0rem;
-} */
-.logo_img {
-  width: 50%;
-  margin-left: 20%;
-}
-.logo {
-  color: #625cd4;
-  font-size: 40px;
-  margin-left: 8%;
-
-  font-family: oribitron;
-  font-weight: bolder;
-  font-family: orbitron;
-}
-.site {
+.location_box {
   position: relative;
-  font-size: 25px;
-  letter-spacing: 0.03em;
-  font-weight: 600;
-  font-family: Orbitron;
-  color: #fff;
-}
-.ms {
-  margin-left: 250px;
-}
-.mt {
-  margin-top: 150px;
-}
-.px {
-  padding-left: 100px;
-}
-/* .location_box {
-  position: relative;
-  width: 20%;
-  right: 23%;
-  bottom: 28rem;
-} */
-.location_img {
-  width: 80%;
-  margin-left: -23%;
-  margin-top: -8%;
+  width: 16%;
+  right: 28%;
+  bottom: 18rem;
 }
 .location {
   position: relative;
-  bottom: 10rem;
-  left: -1.5rem;
-  font-size: 25px;
+  bottom: 7rem;
+  left: 2.8rem;
+  font-size: 20px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
   text-align: center;
@@ -101,174 +62,64 @@
 }
 .detail {
   position: relative;
-  bottom: 9rem;
-  left: -1rem;
+  bottom: 7rem;
+  left: 2.8rem;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
   text-align: center;
 }
-/* .contact-us_box {
+.location_box1 {
   position: relative;
-  width: 20%;
-  left: -3%;
-  padding-bottom: 3rem;
-} */
-.contact_img {
-  width: 80%;
+  width: 16%;
+  right: 8%;
+  bottom: 18rem;
 }
-.contact-us {
+.contactus {
   position: relative;
-  bottom: 8.5rem;
-  left: 3.2rem;
-  font-size: 25px;
+  bottom: 7rem;
+  left: 3.5rem;
+  font-size: 20px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
   text-align: center;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
-.detail_contact {
+.detail-contact {
   position: relative;
-  bottom: 8.5rem;
-  left: 3.2rem;
-  color: #fff;
-  font-size: 14px;
+  bottom: 6rem;
+  left: 3.5rem;
+  color: #ffffff;
+  font-size: 12px;
   letter-spacing: 0.03em;
   font-family: Orbitron;
   text-align: center;
 }
-.ps {
-  padding-left: 200px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.celozisall-rights-reserved {
-  position: relative;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  font-family: Orbitron;
+.website {
   color: #fff;
-  text-align: center;
-  left: 50px;
+  font-family: "orbitron";
+  margin-top: -2.5%;
+  margin-left: 21%;
+  font-size: 1.2rem;
 }
-nav a {
-  letter-spacing: 0.03em;
-  font-family: Orbitron;
-  color: #fff;
+.logo_image {
+  width: 40%;
+  margin-left: 10rem;
+  margin-top: -8rem;
 }
-nav ul {
-  list-style: none;
+.dotnav {
+  width: 18%;
+  top: -52rem;
+  left: -2rem;
 }
-nav ul li a {
-  text-decoration: none;
-  margin: 20px;
-  padding: 10px;
-}
-nav ul li {
-  display: inline-flex;
-}
-
-/* .imagecontainer {
-  width: 100%;
-  height: auto;
-}
-.img {
-  width: 100%;
-  height: auto;
-} */
-
-/* .image-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image-overlay p {
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
-  padding: px;
-} */
-.rectangle-div-footer {
-  background: linear-gradient(to right, #2e335a, #1c1b33);
-  height: 20%;
+.dotnav1 {
+  width: 26%;
+  top: -5rem;
+  left: 65rem;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.celozisall-rights-reserved {
-  position: relative;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  font-family: Orbitron;
-  color: #fff;
-  text-align: center;
-  left: 50px;
-  margin-top: -2%;
-}
-nav a {
-  letter-spacing: 0.03em;
-  font-family: Orbitron;
-  color: #fff;
-}
-nav ul {
-  list-style: none;
-}
-nav ul li a {
-  text-decoration: none;
-  margin: 20px;
-  padding: 10px;
-}
-nav ul li {
-  display: inline-flex;
-}
-
-.nav-main {
-  position: relative;
-  display: inline-block;
-}
-
-.nav-img {
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.nav-main:hover .nav-img {
-  opacity: 1;
-}
-
-.nav-link,
-.nav-link1,
-.nav-link2,
-.nav-link3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -100%);
-  color: #fff;
-  padding: 5px 10px;
-  text-decoration: none;
-  z-index: 2;
-}
-.nav-link1,
-.nav-link2,
-.nav-link3 {
-  margin-left: -2%;
-}
 /*Responsive*/
 @media screen and (max-width: 504px) {
   .have-a-cryptic-container {

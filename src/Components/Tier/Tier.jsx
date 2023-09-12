@@ -96,6 +96,12 @@ function Tier() {
                   Our Customer Support Team addressea the issue and the user
                   gets the response within 24-48 hours.
                 </p>
+                <p style={{ visibility: "hidden" }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia molestias, quas libero explicabo tenetur voluptas?
+                  Odit rerum tenetur, facere, aperiam delectus expedita fugiat
+                  placeat voluptates dicta provident dolorem facilis eum!
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -124,6 +130,12 @@ function Tier() {
                   technical team will monitor it and you will be notified within
                   3 to 5 bussiness days.
                 </p>
+                <p style={{ visibility: "hidden" }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia molestias, quas libero explicabo tenetur voluptas?
+                  Odit rerum tenetur, facere, aperiam delectus expedita fugiat
+                  placeat voluptates dicta provident dolorem facilis eum!
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -151,6 +163,12 @@ function Tier() {
                   If the solution you received is not satisfactory,our Tier 2
                   technical team will monitor it and you will be notified within
                   3 to 5 bussiness days.
+                </p>
+                <p style={{ visibility: "hidden" }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia molestias, quas libero explicabo tenetur voluptas?
+                  Odit rerum tenetur, facere, aperiam delectus expedita fugiat
+                  placeat voluptates dicta provident dolorem facilis eum!
                 </p>
               </div>
             </div>

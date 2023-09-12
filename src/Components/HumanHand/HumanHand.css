@@ -12,6 +12,7 @@
   object-fit: cover;
   left: 605px;
   top: -350px;
+  overflow: hidden;
 }
 .human-hand-icon1 {
   overflow: hidden;
@@ -21,7 +22,44 @@
   object-fit: cover;
   top: -750px;
   left: -190px;
+  overflow: hidden;
 }
+
+/*animation*/
+/* Add this to your CSS file */
+/* Keyframes for left hand */
+@keyframes moveLeftHand {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+/* Keyframes for right hand */
+@keyframes moveRightHand {
+  0% {
+    transform: translateX(0%); /* Start from the right edge */
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Apply animations to hands with delays */
+.human-hand-icon1 {
+  animation: moveLeftHand 2s linear forwards;
+}
+
+.human-hand-icon {
+  animation: moveRightHand 2s linear forwards;
+}
+
 /*phone portrait*/
 @media only screen and (max-width: 360px) and (orientation: portrait) {
   .human-hand-icon {
@@ -49,6 +87,7 @@
     height: 80vh;
   }
 }
+
 @media screen and (min-width: 370px) and (max-width: 376px) and (orientation: portrait) {
   .human-hand-icon {
     position: relative;
