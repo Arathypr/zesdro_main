@@ -4,7 +4,7 @@
   width: 100%;
   height: 150vh;
 }
-.human-hand-icon {
+.human-hand-right {
   overflow: hidden;
   position: relative;
   width: 60%;
@@ -14,7 +14,7 @@
   top: -350px;
   overflow: hidden;
 }
-.human-hand-icon1 {
+.human-hand-left {
   overflow: hidden;
   position: relative;
   width: 65%;
@@ -32,6 +32,7 @@
   0% {
     transform: translateX(0);
     opacity: 1;
+    animation-delay: 2s;
   }
   100% {
     transform: translateX(-100%);
@@ -42,22 +43,26 @@
 /* Keyframes for right hand */
 @keyframes moveRightHand {
   0% {
-    transform: translateX(0%); /* Start from the right edge */
+    transform: translateX(0%);
     opacity: 1;
   }
   100% {
     transform: translateX(100%);
-    opacity: 0;
+    opacity: 1;
+    display: none;
   }
 }
 
 /* Apply animations to hands with delays */
-.human-hand-icon1 {
+.human-hand-left {
   animation: moveLeftHand 2s linear forwards;
+  animation-delay: 2s;
+  overflow: hidden;
 }
 
-.human-hand-icon {
+.human-hand-right {
   animation: moveRightHand 2s linear forwards;
+  animation-delay: 2s;
 }
 
 /*phone portrait*/

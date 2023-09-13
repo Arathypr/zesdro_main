@@ -15,14 +15,16 @@ function Logo() {
   return (
     <div className="rectangle_logo">
       <div className="its-all-about-container">
-        <p className="its-all-about">IT’S ALL ABOUT</p>
-        <p className="making-things-happen">MAKING THINGS HAPPEN.</p>
+        <p className="its-all-about  text-center">IT’S ALL ABOUT</p>
+        <p className="making-things-happen  text-center">
+          MAKING THINGS HAPPEN.
+        </p>
       </div>
       <div className="logo-container">
-        <img src={ZESDROLOGO} alt="" className="logo_img" />
+        <img src={ZESDROLOGO} alt="" className="logo_img  " />
       </div>
       <div className="a-visionary-independent-container position-ansolute">
-        <p className="a-visionary-independent">{animatedText}</p>
+        <p className="a-visionary-independent ">{animatedText}</p>
       </div>
     </div>
   );

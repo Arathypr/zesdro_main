@@ -28,8 +28,8 @@ function HumanHand() {
           />
         </div>
         <div className="imageContainer position-absolute">
-          <img className="human-hand-icon img-fluid" alt="" src={Hand1} />
-          <img className="human-hand-icon1 img-fluid " alt="" src={Hand2} />
+          <img className="human-hand-right img-fluid" alt="" src={Hand1} />
+          <img className="human-hand-left img-fluid " alt="" src={Hand2} />
         </div>{" "}
       </div>
       <div className="rectangle-div3 container-fluid">
