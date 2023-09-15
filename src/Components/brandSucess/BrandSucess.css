@@ -30,6 +30,135 @@
   letter-spacing: 0.02rem;
   font-family: orbitron;
   text-align: center;
-  line-height: 32px;
+  line-height: 40px;
   white-space: pre-wrap;
+}
+
+.this-is-the1 {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.02rem;
+  font-family: orbitron;
+  text-align: center;
+  line-height: 40px;
+  white-space: pre-wrap;
+  display: none;
+}
+.this-is-the2 {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.02rem;
+  font-family: orbitron;
+  text-align: center;
+  line-height: 40px;
+  white-space: pre-wrap;
+  display: none;
+}
+/*Responsive*/
+@media screen and (min-width: 1120px) and (max-width: 1360px) {
+  .this-is-the {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .powering-your-brands-container {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1120px) {
+  .this-is-the {
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    margin-top: 0%;
+  }
+  .powering-your-brands-container {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .this-is-the {
+    font-size: 14px;
+    line-height: 150%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .powering-your-brands-container {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 660px) and (max-width: 800px) {
+  .this-is-the1 {
+    display: block;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .this-is-the {
+    display: none;
+  }
+  .powering-your-brands-container {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 660px) {
+  .this-is-the2 {
+    font-size: 12px;
+    line-height: 150%;
+    width: 100%;
+    margin-left: 0%;
+    display: block;
+  }
+  .powering-your-brands-container {
+    font-size: 40px;
+  }
+  .this-is-the {
+    display: none;
+  }
+  .this-is-the1 {
+    display: none;
+  }
+  .rectangle-pie {
+    height: 200vh;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 520px) {
+  .this-is-the {
+    display: none;
+  }
+  .this-is-the2 {
+    display: block;
+    font-size: 10px;
+    line-height: 150%;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .powering-your-brands-container {
+    font-size: 40px;
+    margin-top: 10%;
+  }
+  .rectangle-pie {
+    height: 150vh;
+  }
+  .rectangle-pie {
+    height: 200vh;
+  }
+}
+/*Phone portrait*/
+
+@media screen and (max-width: 450px) {
+  .this-is-the2 {
+    display: block;
+    font-size: 10px;
+    line-height: 150%;
+    width: 80%;
+
+    margin-left: 10%;
+  }
+  .this-is-the {
+    display: none;
+  }
+  .powering-your-brands-container {
+    font-size: 30px;
+    margin-top: 10%;
+  }
 }

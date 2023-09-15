@@ -75,7 +75,7 @@ export default function App() {
 
   return (
     <>
-      {/* <Brand /> */}{" "}
+      {" "}
       <div
         className="piechart"
         style={{

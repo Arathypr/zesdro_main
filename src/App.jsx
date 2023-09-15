@@ -18,13 +18,13 @@ function App() {
     <>
       {/* <HoneyComb /> */}
       <Logo />
-      {/* <BrandSucess />
-      <Whyus /> */}
+      <BrandSucess />
+      {/* <Whyus /> */}
       {/* <Tier /> */}
       {/* <Circle /> */}
       {/* <Slider /> */}
-      {/* <HumanHand />
-      <FooterNav /> */}
+      {/* <HumanHand />*/}
+      <FooterNav />
     </>
   );
 }

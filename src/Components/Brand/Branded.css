@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Betatron";
+  src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
+}
+
+.pie2 {
+  display: none;
+}
+
+.vector-box {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  left: 328%;
+  bottom: 39rem;
+}
+.vector-box1 {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  left: 310%;
+  bottom: 16.5rem;
+}
+.vector-box2 {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  left: 65%;
+  bottom: 430px;
+}
+.experiences {
+  font-weight: 600;
+}
+.we-focus-on-container {
+  position: absolute;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #fff;
+  left: 335%;
+  bottom: 370%;
+  text-align: left;
+  display: inline-block;
+  width: 280px;
+  font-family: Orbitron;
+}
+.we-believe-every-container {
+  position: absolute;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #fff;
+  left: 318%;
+  bottom: 170%;
+  text-align: left;
+  display: inline-block;
+  width: 284px;
+  font-family: Orbitron;
+}
+.technology-is-a-container {
+  position: absolute;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #fff;
+  left: 70%;
+  bottom: 440px;
+  text-align: left;
+  display: inline-block;
+  width: 284px;
+  font-family: Orbitron;
+}
+.cus-vector-box,
+.bus-vector-box,
+.tech-vector-box {
+  opacity: 0.1;
+}
+.cus-vector-box:hover,
+.bus-vector-box:hover,
+.tech-vector-box:hover {
+  opacity: 1;
+}
+.highlighted {
+  opacity: 1; /* Make the box fully visible when highlighted */
+}
+
+.normal {
+  opacity: 0.1; /* Reduce opacity for normal boxes */
+}
+
+.pie2 {
+  display: none;
+}
+/*Responsive*/
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .we-focus-on-container {
+    position: absolute;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    left: 140px;
+    top: -610px;
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+  }
+  .we-believe-every-container {
+    position: absolute;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+    color: #fff;
+    left: 140px;
+    bottom: 240px;
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+    font-family: Orbitron;
+  }
+  .technology-is-a-container {
+    position: absolute;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    line-height: 25px;
+    color: #fff;
+    left: 125px;
+    bottom: 30px;
+    display: inline-block;
+    width: 75%;
+    font-family: Orbitron;
+  }
+
+  .vector-box {
+    position: relative;
+    width: 80%;
+    height: 180px;
+    left: 115px;
+    bottom: 650px;
+  }
+  .vector-box1 {
+    position: relative;
+    width: 80%;
+    height: 180px;
+    left: 115px;
+    bottom: 200px;
+  }
+  .vector-box2 {
+    position: relative;
+    width: 80%;
+    height: 180px;
+    left: 115px;
+    bottom: 0px;
+  }
+  .pie1 {
+    display: none;
+  }
+  .pie2 {
+    display: block;
+  }
+}

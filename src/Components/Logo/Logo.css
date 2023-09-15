@@ -6,7 +6,6 @@
   position: relative;
   background: linear-gradient(to right, #2e335a, #1c1b33);
   width: 100%;
-  height: 140vh;
 }
 .its-all-about {
   margin-block-start: 0;
@@ -43,7 +42,7 @@
   font-family: orbitron;
   text-align: center;
   line-height: 150%;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .logo-container {
@@ -51,13 +50,14 @@
   justify-content: center;
   align-items: center;
   height: auto;
+  margin-top: -5%;
 }
 
 .logo-img {
   width: 100%;
   height: auto;
 }
-/*Responsive*/
+/*Responsive*/ /*Desktop*/
 @media screen and (min-width: 990px) and (max-width: 1200px) {
   .a-visionary-independent-container {
     font-size: 20px;
@@ -77,18 +77,16 @@
   .logo-container {
     width: 70%;
     margin-left: 15%;
-  }
-  .rectangle_logo {
-    height: 115vh;
+    margin-top: 17%;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 750px) and (max-width: 800px) {
   .a-visionary-independent-container {
     font-size: 16px;
     line-height: 150%;
-    width: 80%;
+    width: 90%;
     margin-top: 20%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   .its-all-about-container {
     font-size: 45px;
@@ -97,7 +95,75 @@
     width: 70%;
     margin-left: 15%;
   }
-  .rectangle_logo {
-    height: 100vh;
+}
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .a-visionary-independent-container {
+    font-size: 14px;
+    line-height: 150%;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 0%;
+  }
+  .its-all-about-container {
+    font-size: 45px;
+  }
+  .logo-container {
+    width: 65%;
+    margin-left: 15%;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 600px) {
+  .a-visionary-independent-container {
+    font-size: 12px;
+    line-height: 150%;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 0%;
+  }
+  .its-all-about-container {
+    font-size: 40px;
+  }
+  .logo-container {
+    width: 65%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 520px) {
+  .a-visionary-independent-container {
+    font-size: 10px;
+    line-height: 150%;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 0%;
+  }
+  .its-all-about-container {
+    font-size: 40px;
+    margin-top: 10%;
+  }
+  .logo-container {
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 25%;
+  }
+}
+/*Phone portrait*/
+
+@media screen and (max-width: 450px) {
+  .a-visionary-independent-container {
+    font-size: 10px;
+    line-height: 150%;
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .its-all-about-container {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+  .logo-container {
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 25%;
   }
 }

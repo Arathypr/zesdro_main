@@ -1,6 +1,7 @@
-import "./Brand.css";
+// import "./Brand.css";
 import PieChart from "../PieChart/PieChart";
 import Chart from "../PieChart2/Chart";
+import "./Branded.css";
 import group5 from "../../assets/group5.svg";
 import group3 from "../../assets/group3.svg";
 import group4 from "../../assets/group4.svg";
@@ -28,7 +29,7 @@ function Brand({ activeIndex }) {
     setHoveredStroke(null);
   };
   return (
-    <div className="rectangle-div container-fluid">
+    <div className="rectangle-div">
       {/* <div className="powering-your-brands-container">
         <p className="powering-your-brands">Powering Your Brand's Success </p>
         <p className="with-our-core">with Our Core Values</p>
@@ -40,10 +41,6 @@ function Brand({ activeIndex }) {
         {" "}
         <PieChart onPieEnter={handlePieHover} onPieLeave={handlePieLeave} />
       </div> */}
-      <div className="pie2">
-        {" "}
-        <Chart />
-      </div>
 
       <div
         // className="imgvector position-absolute"

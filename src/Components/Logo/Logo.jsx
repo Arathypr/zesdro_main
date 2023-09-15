@@ -25,6 +25,13 @@ function Logo() {
       </div>
       <div className="a-visionary-independent-container position-ansolute">
         <p className="a-visionary-independent ">{animatedText}</p>
+        <p style={{ visibility: "hidden" }}>
+          {" "}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          quos, velit ipsam distinctio omnis eum, assumenda in quae quis dicta
+          corrupti mollitia laborum accusantium aut unde hic, autem consequuntur
+          provident.
+        </p>
       </div>
     </div>
   );
