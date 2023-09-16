@@ -27,13 +27,13 @@ const renderActiveShape = (props) => {
   const sy = cy + (outerRadius + 10) * sin;
   const mx = cx + (outerRadius + 30) * cos;
   const my = cy + (outerRadius + 30) * sin;
-  const ex = mx + (cos >= 0 ? 1 : -1) * 50;
+  const ex = mx + (cos >= 0 ? 1 : -1) * 30;
   const ey = my;
   const textAnchor = cos >= 0 ? "start" : "end";
 
   return (
     <g>
-      <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill} fontSize={20}>
+      <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill} fontSize={15}>
         {payload.name}
       </text>
       <Sector
@@ -92,10 +92,10 @@ export default function App() {
               activeIndex={activeIndex}
               activeShape={renderActiveShape}
               data={data}
-              cx={200}
+              cx={238}
               cy={280}
-              innerRadius={70}
-              outerRadius={100}
+              innerRadius={55}
+              outerRadius={80}
               fill="#8884d8"
               dataKey="value"
               onMouseEnter={onPieEnter}

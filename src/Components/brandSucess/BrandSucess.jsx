@@ -4,6 +4,7 @@ import Brand from "../Brand/Brand";
 import { useTypingEffect } from "../Typing/Typing";
 import "../brandSucess/BrandSucess.css";
 import Chart from "../../Components/PieChart2/Chart";
+import Pie from "../../Components/piechart1/pie";
 
 export const BrandSucess = () => {
   const textToAnimate =
@@ -44,6 +45,10 @@ export const BrandSucess = () => {
       </div>
       <div className="pie2">
         <Chart />
+      </div>
+      <div className="pie3">
+        {" "}
+        <Pie />
       </div>
     </div>
   );
